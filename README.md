@@ -2,7 +2,7 @@
 
 > **Status: Work in progress**
 
-PYBL, short for **Meditation Pebble**, is an experimental embedded-hardware project currently in the prototyping stage. It is intended to guide paced breathing through changing vibration intensity inside a small pebble-shaped device.
+PYBL, is an experimental embedded-hardware project currently in the prototyping stage. It is intended to guide paced breathing through changing vibration intensity inside a small pebble-shaped device.
 
 The current prototype combines a Seeed XIAO nRF52840, DRV2605L haptic driver, linear resonant actuator, touch input, LiPo battery and experimental wireless-power hardware. The project is not presented as a finished product: the electronics layout, firmware behaviour, power system and final form factor are still being tested and refined.
 
