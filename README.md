@@ -10,6 +10,14 @@ The current prototype combines a Seeed XIAO nRF52840, DRV2605L haptic driver, li
 
 The collage above was assembled from original development photos. It shows four stages of the current prototype: a compact battery-powered assembly, integration of a wireless-power receiver, bench testing of the haptic driver and motor, and an early 3D-printed enclosure and form-factor study.
 
+## Planned stand and interaction
+
+The intended design includes a dedicated bedside stand that also acts as a wireless charging pad. PYBL should remain charged and ready while resting on the stand, without requiring a screen, app or menu.
+
+Picking the pebble up from the stand is planned to start the meditation cycle automatically. It will then continue looping the paced-breathing vibration pattern until the pebble is returned to the stand or the session reaches its safety timeout. Returning it to the stand should end the active session and resume charging.
+
+This interaction is aimed particularly at sleep and night-time use. A user should be able to reach for PYBL, begin a guided breathing exercise and put it back down without looking at a display or navigating an interface. The exact method used to detect whether the pebble is on the stand is still being evaluated as part of the hardware prototype.
+
 ## Work completed so far
 
 - Connected and tested a compact microcontroller board
@@ -37,6 +45,8 @@ The firmware is an active prototype rather than a tagged release. In particular,
 - Make the electrical connections more robust and repeatable
 - Continue firmware testing and haptic-response tuning
 - Validate charging, power consumption and battery behaviour
+- Prototype the charging stand and reliable dock-state detection
+- Start and stop sessions automatically when the pebble is lifted or returned
 - Reduce the prototype's overall size
 - Design a safer, cleaner enclosure once the electronics stabilise
 
